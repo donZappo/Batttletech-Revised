@@ -283,7 +283,7 @@
   "ToHitMechFromSide": 1,
   "ToHitMechFromRear": 0,
   "ToHitVehicleFromFront": 0,
-  "ToHitVehicleFromSide": 1,
+  "ToHitVehicleFromSide": 0,
   "ToHitVehicleFromRear": 0,
 
   /* Hit modifier after jumping, added on top of movement modifier (if any).  Effective only if "Jumped" is in the modifier factor list(s).  Default 0. */
@@ -431,7 +431,7 @@
 
   /* Critical rate on vehicles and turrets, relative to mech.  Set to 0 to disable. */
 
-  "CriChanceVsVehicle": 1.5,
+  "CriChanceVsVehicle": 0.5,
   "CritChanceVsTurret": 2,
 
   /* Should turrets and vehicles be killed when their ammo explodes?  Default true. */
