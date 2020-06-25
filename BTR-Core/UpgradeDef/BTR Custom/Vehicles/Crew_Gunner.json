@@ -1,0 +1,46 @@
+{
+    "Custom": {
+		"Tag": "Vehicle_Gunner",
+        "BonusDescriptions": {
+            "Bonuses": []
+        },
+    },
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+        "Cost": 0,
+        "Rarity": 0,
+        "Purchasable": false,
+        "Manufacturer": "Vehicle",
+        "Model": "Gunner",
+        "UIName": "Gunner",
+        "Id": "Crew_Gunner",
+        "Name": "Gunner",
+        "Details": "The guy making this vehicle shoot at you.",
+    },
+    "BonusValueA": "Adds accuracy bonus",
+    "BonusValueB": "",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 0,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "None",
+    "CriticalComponent": false,
+    "statusEffects": [
+		{
+		 	"statName" : "AccuracyModifier",
+			"operation" : "Float_Add",
+			"modValue" : "-2.0",
+			"modType" : "System.Single",
+			"targetCollection" : "Weapon",
+		}
+    ],
+    "ComponentTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    }
+}

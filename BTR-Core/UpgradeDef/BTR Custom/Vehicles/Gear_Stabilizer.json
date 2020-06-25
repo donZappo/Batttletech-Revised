@@ -1,0 +1,49 @@
+{
+    "Custom": {
+		"Tag": "Stabilizer",
+        "BonusDescriptions": {
+            "Bonuses": []
+        },
+    },
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+        "Cost": 0,
+        "Rarity": 0,
+        "Purchasable": false,
+        "Manufacturer": "Vehicle",
+        "Model": "Stabilizer",
+        "UIName": "Stabilizer",
+        "Id": "Gear_Stabilizer",
+        "Name": "Stabilizer",
+        "Details": "Compensates for movement and braces weapons during fire.",
+    },
+    "BonusValueA": "Adds accuracy bonus",
+    "BonusValueB": "",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 0,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "None",
+    "CriticalComponent": false,
+    "statusEffects": [
+		{
+		 	"appliesEachTick" : false,
+			"effectsPersistAfterDestruction" : false,
+			"statName" : "AccuracyModifier",
+			"operation" : "Float_Add",
+			"modValue" : "-2.0",
+			"modType" : "System.Single",
+			"additionalRules" : "NotSet",
+			"targetCollection" : "Weapon",
+		}
+    ],
+    "ComponentTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+    }
+}

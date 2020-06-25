@@ -346,7 +346,7 @@
   /* Increase or decrease roll correction strength.  0 to disable roll correction, 1 is original strength, max is 2 for double strength.
    * Default is 0.5 for less correction. */
 
-  "RollCorrectionStrength": 0.5,
+  "RollCorrectionStrength": 0,
 
   /* Set miss streak breaker threshold.  Only attacks with hit rate above the threshold will add to streak breaker.
    * Default is 0.5, same as game default.  Set to 1 to disable miss streak breaker. */

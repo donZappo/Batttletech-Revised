@@ -18,37 +18,37 @@
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 130,
-      "CurrentInternalStructure": 25,
-      "AssignedArmor": 130,
+      "CurrentArmor": 0,
+      "CurrentInternalStructure": 155,
+      "AssignedArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Left",
-      "CurrentArmor": 99,
-      "CurrentInternalStructure": 25,
-      "AssignedArmor": 99,
+      "CurrentArmor": 0,
+      "CurrentInternalStructure": 125,
+      "AssignedArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 99,
-      "CurrentInternalStructure": 25,
-      "AssignedArmor": 99,
+      "CurrentArmor": 0,
+      "CurrentInternalStructure": 125,
+      "AssignedArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Rear",
-      "CurrentArmor": 90,
-      "CurrentInternalStructure": 25,
-      "AssignedArmor": 90,
+      "CurrentArmor": 0,
+      "CurrentInternalStructure": 115,
+      "AssignedArmor": 0,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Turret",
-      "CurrentArmor": 130,
-      "CurrentInternalStructure": 25,
-      "AssignedArmor":130,
+      "CurrentArmor": 0,
+      "CurrentInternalStructure": 155,
+      "AssignedArmor": 0,
       "DamageLevel": "Functional"
     }
   ],
@@ -112,7 +112,7 @@
     {
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
       "ComponentDefType": "AmmunitionBox",
-      "MountedLocation": "Turret",
+      "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
@@ -122,7 +122,71 @@
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
-    }
+    },
+	{
+      "MountedLocation": "Front",
+      "ComponentDefID": "VehicleCrew_Driver",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Turret",
+      "ComponentDefID": "VehicleCrew_Gunner",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Gear_Stabilizer",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Gear_Sensors",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Hoverskirt",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Left",
+      "ComponentDefID": "Gear_Hoverskirt",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Right",
+      "ComponentDefID": "Gear_Hoverskirt",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Gear_Hoverskirt",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	{
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Gear_CrewCompartment",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+	
   ],
   "MinAppearanceDate": "2722-01-01T00:00:00Z"
 }
