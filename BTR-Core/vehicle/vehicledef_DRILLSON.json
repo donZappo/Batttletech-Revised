@@ -186,6 +186,14 @@
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
+	{
+		"MountedLocation": "Front", 
+		"ComponentDefID": "vehicle_quirk_base_accuracy", 
+		"ComponentDefType": "Upgrade", 
+		"HardpointSlot": -1, 
+		"DamageLevel": "Functional", 
+
+    }, 
 	
   ],
   "MinAppearanceDate": "2722-01-01T00:00:00Z"

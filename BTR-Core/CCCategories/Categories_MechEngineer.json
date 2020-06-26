@@ -505,6 +505,19 @@
          "DisplayName":"Lower Arm-Type Actuator",
          "MaxEquipedPerLocation":1,
          "AutoReplace":false,
-      }
+      },
+	  {
+         "Name":"Vehicle_Quirk",
+         "DisplayName":"Vehicle Quirk",
+         "MaxEquipedPerLocation":1,
+         "DefaultCustoms":{
+            "Flags":{
+               "Flags":[
+                  "ignore_damage",
+				  "no_salvage"
+               ]
+            }
+         }
+      },
    ]
 }

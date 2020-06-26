@@ -66,6 +66,7 @@
 		{ "Tag": "RareDesign", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_rare_design", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
 		{ "Tag": "CrabClaws", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_crab_claws", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
 		{ "Tag": "MuseumDesign", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_museum_design", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
-		{ "Tag": "GeneralistWeapons", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_generalist_design", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}}
+		{ "Tag": "GeneralistWeapons", "CategoryID": "Quirks", "Type": "Upgrade", "DefID": "mech_quirk_generalist_design", "Location": "CenterTorso", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}},
+		{ "Tag": "VehicleAccuracy", "CategoryID": "Vehicle_Quirk", "Type": "Upgrade", "DefID": "vehicle_quirk_base_accuracy", "Location": "Front", "DefaultCustoms" : {"RGBColor" : { "Color" : "#610000" }}}
 	]
 }
